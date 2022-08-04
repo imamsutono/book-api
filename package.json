@@ -1,0 +1,30 @@
+{
+  "name": "book-api",
+  "version": "1.0.0",
+  "description": "API for manage book data for dicoding submission backend class",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imamsutono/book-api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "imamsutono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imamsutono/book-api/issues"
+  },
+  "homepage": "https://github.com/imamsutono/book-api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "nodemon": "^2.0.19"
+  }
+}
